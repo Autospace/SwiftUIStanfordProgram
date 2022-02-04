@@ -11,6 +11,7 @@
 		1075462127A7FFDC003C017C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1075462027A7FFDC003C017C /* ContentView.swift */; };
 		1075462327A7FFDE003C017C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1075462227A7FFDE003C017C /* Assets.xcassets */; };
 		1075462627A7FFDE003C017C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1075462527A7FFDE003C017C /* Preview Assets.xcassets */; };
+		109BECA927AD88A200D2D951 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109BECA827AD88A100D2D951 /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1075462027A7FFDC003C017C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1075462227A7FFDE003C017C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1075462527A7FFDE003C017C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		109BECA827AD88A100D2D951 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1075461D27A7FFDC003C017C /* SwiftUIStanfordProgram */ = {
 			isa = PBXGroup;
 			children = (
+				109BECA827AD88A100D2D951 /* MemoryGame.swift */,
 				1075461E27A7FFDC003C017C /* SwiftUIStanfordProgramApp.swift */,
 				1075462027A7FFDC003C017C /* ContentView.swift */,
 				1075462227A7FFDE003C017C /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109BECA927AD88A200D2D951 /* MemoryGame.swift in Sources */,
 				1075462127A7FFDC003C017C /* ContentView.swift in Sources */,
 				1075461F27A7FFDC003C017C /* SwiftUIStanfordProgramApp.swift in Sources */,
 			);
