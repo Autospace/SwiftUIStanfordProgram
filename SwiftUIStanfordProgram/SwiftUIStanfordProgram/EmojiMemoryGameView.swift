@@ -140,9 +140,11 @@ struct CardView: View {
                 }
                     .padding(5)
                     .opacity(0.5)
+
+                let contentRotationAngle = Angle.degrees(card.isMatched ? 360 : 0)
                 Text(card.content)
-                    .rotationEffect(Angle.degrees(card.isMatched ? 360 : 0))
-                    .animation(Animation.linear(duration: 1).repeatForever(autoreverses: false), value: Angle.degrees(card.isMatched ? 360 : 0))
+                    .rotationEffect(contentRotationAngle)
+                    .animation(Animation.linear(duration: 1).repeatForever(autoreverses: false), value: contentRotationAngle)
                     .font(Font.system(size: DrawingConstants.fontSize))
                     .scaleEffect(scale(thatFits: geometry.size))
             }
@@ -159,9 +161,6 @@ struct CardView: View {
         static let fontSize: CGFloat = 32
     }
 }
-
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
