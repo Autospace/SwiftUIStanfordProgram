@@ -15,6 +15,7 @@
 		10F838352874BB7400940817 /* EmojiArtModel.Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F838342874BB7400940817 /* EmojiArtModel.Background.swift */; };
 		10F838372874BCA200940817 /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F838362874BCA200940817 /* EmojiArtDocument.swift */; };
 		10F8383A2874BF8300940817 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F838392874BF8300940817 /* UtilityExtensions.swift */; };
+		5F174B522878BFE800EB32E6 /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F174B512878BFE800EB32E6 /* UtilityViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		10F838342874BB7400940817 /* EmojiArtModel.Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtModel.Background.swift; sourceTree = "<group>"; };
 		10F838362874BCA200940817 /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
 		10F838392874BF8300940817 /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		5F174B512878BFE800EB32E6 /* UtilityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				10F838392874BF8300940817 /* UtilityExtensions.swift */,
+				5F174B512878BFE800EB32E6 /* UtilityViews.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F174B522878BFE800EB32E6 /* UtilityViews.swift in Sources */,
 				100B7BC3286E1DE300DD28FA /* EmojiArtDocumentView.swift in Sources */,
 				100B7BC1286E1DE300DD28FA /* EmojiArtApp.swift in Sources */,
 				10F8383A2874BF8300940817 /* UtilityExtensions.swift in Sources */,
